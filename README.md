@@ -10,7 +10,8 @@ Current date and time in ISO 8601 format
 GitHub repository URL
 
 Base URL:
- https://[your-deployed-url.com](http://localhost:4001)
+ it's not hosted.
+ https://http://localhost:4001
 
 Endpoint(http):
  GET/
@@ -19,7 +20,7 @@ Response format(Json):
  {
     "email": "osstephen70@gmail.com",
     "current_datetime": "2025-01-29T09:52:47.794Z",
-    "github_url": "https://github.com/DeMaestro5"
+    "github_url": "https://github.com/DeMaestro5/HNG12-first-task"
  }
 
 Status Code:
@@ -27,12 +28,9 @@ Status Code:
  500: Server error
 
 Local development setup:
-   git clone https://github.com/DeMaestro5/your-repo-name.git
-   cd your-repo-name
-
 1) clone the repo
-   git clone https://github.com/DeMaestro5/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/DeMaestro5/HNG12-first-task
+   cd HNG12-first-task
 2) install dependencies
    npm install
 3) start development server
@@ -63,9 +61,9 @@ Project Structure
 Testing
 You can test the endpoint using any HTTP client (e.g., Postman, cURL):
 bash: 
-  curl https://your-deployed-url.com/
+  curl https://github.com/DeMaestro5/HNG12-first-task
 Using JavaScript fetch:
-  fetch('https://your-deployed-url.com/')
+  fetch('https://github.com/DeMaestro5/HNG12-first-task')
   .then(response => response.json())
   .then(data => console.log(data));
 
