@@ -1,5 +1,8 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 export const CONFIG = {
-  EMAIL: 'osstephen70@gmail.com',
-  GITHUB_URL: 'https://github.com/DeMaestro5/HNG12-first-task',
+  EMAIL: process.env.EMAIL,
+  GITHUB_URL: process.env.GITHUB_URL,
   PORT: process.env.PORT || 4001,
 };
