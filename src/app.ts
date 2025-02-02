@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import infoRoutes from '../src/routes/infoRoutes';
-import { CONFIG } from '../src/config/constants';
+import infoRoutes from './routes/infoRoutes';
+import { CONFIG } from './config/constants';
 
 const app = express();
 
